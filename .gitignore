@@ -1,0 +1,11 @@
+*.txt
+*.json
+*.zip
+.pytest_cache
+package
+__pycache__
+google_sheets.py
+lambda_web.py
+templates
+scripts
+S3*
