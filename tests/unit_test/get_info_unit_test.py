@@ -1,6 +1,6 @@
 import unittest
 import sys
-sys.path.append("./wikipedia")
+sys.path.append("./get_info")
 import lambda_function
 
 class UnitTestGetInfo(unittest.TestCase):

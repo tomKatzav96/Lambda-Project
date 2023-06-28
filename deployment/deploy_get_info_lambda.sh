@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 echo "Package the dependencies"
 pip install --target ./get_info/package wikipedia-api boto3
 zip -r ./get_info/my-deployment-package.zip ./get_info/package/*
